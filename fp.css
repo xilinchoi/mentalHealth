@@ -12,7 +12,7 @@ body {
 
 .topnav a {
   float: left;
-  color: blue /*#f2f2f2*/;
+  color: #7cabf4/;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -20,7 +20,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: blue /* #ddd*/;
+  background-color: #c1d9ff;
   color: black;
 }
 
