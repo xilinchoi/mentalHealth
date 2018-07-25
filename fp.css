@@ -12,11 +12,12 @@ body {
 
 .topnav a {
   float: left;
-  color: #7cabf4/;
+  color: #7cabf4;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  
 }
 
 .topnav a:hover {
