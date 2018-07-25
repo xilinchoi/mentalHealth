@@ -3,7 +3,7 @@ body {
 }
 
 .topnav{
-  background-color: #bbb;
+  background-color: black;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -34,6 +34,6 @@ body {
 }
 
 h2 {
-    color: orange; 
+    color: white; 
     font-size:25px;
 }
