@@ -10,30 +10,38 @@ body, html {
     margin: 0;
     color:blue;
 }
+
 .img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
     position: relative;
+
     opacity: 0.65;
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .img-1 {
   background-image: url("http://lightexhibit.org/bio_images_sm/IMG_0134_720.jpg");
   min-height: 100%;
 }
+
 .img-2 {
   background-image: url("https://images.unsplash.com/photo-1492463104320-56094d69c6c4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1fba08c6060927b59894d23dcd87fac4&w=1000&q=80");
   min-height: 500px;
 }
+
 .img-3 {
   background-image: url("https://i.ytimg.com/vi/jTjfuFHLyXU/maxresdefault.jpg");
   min-height: 500px;
 }
+
 .img-4 {
   background-image: url("https://data.whicdn.com/images/298802057/large.jpg");
   min-height: 500px;
 }
+
 .img-5 {
   background-image: url("https://i.pinimg.com/originals/b4/a1/aa/b4a1aa00c35d50f070045debafbcc301.jpg");
   min-height: 500px;
@@ -42,7 +50,7 @@ body, html {
   background-image: url("http://78.media.tumblr.com/269c403059961756a8355004d3db1a89/tumblr_np1ceizGBb1rvr0dro1_1280.jpg");
   min-height: 500px;
 }
-
+  
 .caption {
   position: absolute;
   left: 0;
@@ -51,6 +59,7 @@ body, html {
   text-align: center;
   color: #000;
 }
+
 .caption span.border {
   background-color: #000000;
   color: #fff;
@@ -66,24 +75,72 @@ a {
   color:#fff;
   background-color: #3f3f3f;
 }
+
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 25px "Lato", sans-serif;
+  font: 20px "Lato", sans-serif;
   color:#111;
 }
+
 h1 {
   color:black;
   font-size: 30px;
 }
-h5 {
-  font: 20px "Trebuchet MS", sans-serif;
-  color: #808080;
+    
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
 }
+
+#header {
+margin-top: 10;
+border: 2px solid black;
+padding: 10px;
+height: 500px;
+background: beige;
+background-image: url("https://static1.squarespace.com/static/5611b3fae4b09e1a44f2d387/59c81372b1ffb6eac171cb2b/59c823858419c269b82806ef/1506288519951/Museum+of+Ice+Cream-9.jpg"); /* put your own pic here */
+color: white;
+}
+
+label {
+display: block;
+}
+
+input {
+width: 30px;
+margin-left: 20px;
+}
+
+h2 {
+clear: both;
+padding-top: 20px;
+}
+
 h6 {
-  font: 17px "Trebuchet MS", sans-serif;
-  color: #808080;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 25px "Lato", sans-serif;
+  color: #000000;
 }
+
+h4 {
+  font: 20px "Trebuchet MS", sans-serif;
+  color: #595659
+}
+h5 {
+  font: 15px "Trebuchet MS", sans-serif;
+  color: #595659
+}
+    
+button {
+width: 100px;
+margin-top: 20px;
 body {
 /*       background-image: url("background.jpg"); */
     color:black;
@@ -101,6 +158,7 @@ body {
 #section3 {}
 #section4 {}
 #section5 {}
+
 </style>
 </head>
 
@@ -118,61 +176,48 @@ body {
 
 <div id="section1" class="container-fluid" style="color:#777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
   <h3 style="text-align:center;">About Us</h3>
-  <center>
-    <h5>
-      <p>Hi! Welcome to Expression, a site that promotes mental health awareness.</p>
-      <p>We are four high school students from the Bay Area who are passionate about</p>
-      <p>destigmatizing the topic of mental wellness. We hope that Expression gives you </p>
-      <p>more insight into what mental health is and how it impacts individuals.
-      <p>We also hope that this website helps motivate you to change the way you approach
-      <p>the subject of mental health and to make a conscious effort to take care of your</p>
-      <p>own mental state.  Remember: everyone, whether they are mentally healthy or not,</p>
-      <p>should dedicate attention and care towards maintaining a sound mind.</p>
-    </h5>
-  </center>
+  <p>
+    Hi! Welcome to our website on the importance of mental health. We are four high school students from the bay area and we are passionate about raising awareness about mental health. We hope that our website gives you more insight into what mental health is and how it impacts individuals. We also hope that this website helps motivate you to want to make a difference and try to help people with mental health issues.
+
+  </p>
 </div>
 
 <div class="img-2"></div>
 
 <div id="section2" class="container-fluid" style="color:#777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
   <h3 style="text-align:center;">information</h3>
-  <frameset cols="50%,50%">
-    <frame src="frame_a.htm" marginwidth="50">
-  </frameset>
-  <p><h6><center><frame>
+  <p>
     <p> <strong> What are signs of declining mental health?</strong> </p>
-    <p>Some warning signs of declining mental health may be eating or sleep too much or too little, pulling away </p>
-    <p>from people, loosing energy, feeling like life is pointless, getting into fights with family or friends frequently, </p>
-    <p>experiencing severe mood swings, or having suicidal thoughts.</p>
-    <p> <strong> How common are mental health issues? </strong> </p>
-    <p>About one in 5 adults have a mental health condition. In other words, that is about 40 million Americans. Severe depression in youths increased from 6% in 2012 to 8% in 2015. About one in 5 youth (13-18) experience a severe mental disorder at some point in their life. 7% of adults in the US (16 million) had at least one major episode related to depression last year.</p>
-    <p> <strong> What are the 5 most common mental health issues? </strong> </p>
-    <p>Number one is anxiety disorders. Anxiety disorders can be short or long term depending on the person, but it causes a person to constantly be worried and anxious even when they are in normal situations. Number two is depression. For many people with depression, they are constantly feeling sad or are never interested in anything anymore. They often have suicidal thoughts and feel like they are worthless or feel guilty of something. Number three is ADD or ADHD. Attention Deficit Disorder and Attention Deficit Hyperactivity Disorder lead to people having trouble concentrating, staying still for a long time, and often have no patience. Number four is addiction. Substance abuse and addiction are very common in most young adults today, who often feel pressure to do drugs or start smoking. They might also want to do it to forget about problems in their life and to avoid dealing with them. Number five is eating disorders. Approximately 1-2 percent of youths suffer from some kind of eating disorder. That’s thousands of children starving themselves to be skinnier and feel pretty. Two common ones are anorexia--where someone skips meals frequently to lose weight-- and bulimia-- where someone eats and then vomits all the food they just ate.</p>
-    <p> <strong> What are the causes of mental health problems? </strong> </p>
-    <p>There are many different things that can cause someone’s mental health to decline. Genetic, biological, psychosocial, and environmental factors are the most common roots of the problem. You can reduce your chance of developing a mental health problem by practicing self-care, seeking help if you need it, and paying attention to the warning signs. </p>
-    <p> <strong> Can people with mental illnesses recover? </strong> </p>
-    <p>For each different type of mental illness, the treatment is different but there are many treatments in response to most of the mental issues. Most of the time, with careful monitoring and management of the illness, it is viable to live a happy live. </p>
-    <p> <strong> What should I do if I know someone who might have a mental disorder? </strong> </p>
-    <p>Even though this website cannot substitute for professional advice, we strongly encourage those with symptoms to talk to friends and family and seek help from a mental health professional. If you know someone who might have a mental problem, encourage and support them. </p>
-  </frame></center></h6></p>
+  <p>Some warning signs of declining mental health may be eating or sleep too much or too little, pulling away from people, loosing energy, feeling like life is pointless, getting into fights with family or friends frequently, experiencing severe mood swings, or having suicidal thoughts.</p>
+  <p> <strong> How common are mental health issues? </strong> </p>
+  <p>About one in 5 adults have a mental health condition. In other words, that is about 40 million Americans. Severe depression in youths increased from 6% in 2012 to 8% in 2015. About one in 5 youth (13-18) experience a severe mental disorder at some point in their life. 7% of adults in the US (16 million) had at least one major episode related to depression last year.</p>
+  <p> <strong> What are the 5 most common mental health issues? </strong> </p>
+  <p>Number one is anxiety disorders. Anxiety disorders can be short or long term depending on the person, but it causes a person to constantly be worried and anxious even when they are in normal situations. Number two is depression. For many people with depression, they are constantly feeling sad or are never interested in anything anymore. They often have suicidal thoughts and feel like they are worthless or feel guilty of something. Number three is ADD or ADHD. Attention Deficit Disorder and Attention Deficit Hyperactivity Disorder lead to people having trouble concentrating, staying still for a long time, and often have no patience. Number four is addiction. Substance abuse and addiction are very common in most young adults today, who often feel pressure to do drugs or start smoking. They might also want to do it to forget about problems in their life and to avoid dealing with them. Number five is eating disorders. Approximately 1-2 percent of youths suffer from some kind of eating disorder. That’s thousands of children starving themselves to be skinnier and feel pretty. Two common ones are anorexia--where someone skips meals frequently to lose weight-- and bulimia-- where someone eats and then vomits all the food they just ate.</p>
+  <p> <strong> What are the causes of mental health problems? </strong> </p>
+  <p>There are many different things that can cause someone’s mental health to decline. Genetic, biological, psychosocial, and environmental factors are the most common roots of the problem. You can reduce your chance of developing a mental health problem by practicing self-care, seeking help if you need it, and paying attention to the warning signs. </p>
+  <p> <strong> Can people with mental illnesses recover? </strong> </p>
+  <p>For each different type of mental illness, the treatment is different but there are many treatments in response to most of the mental issues. Most of the time, with careful monitoring and management of the illness, it is viable to live a happy live. </p>
+  <p> <strong> What should I do if I know someone who might have a mental disorder? </strong> </p>
+  <p>Even though this website cannot substitute for professional advice, we strongly encourage those with symptoms to talk to friends and family and seek help from a mental health professional. If you know someone who might have a mental problem, encourage and support them. </p>    
+  </p>
 </div>
 
 <div class = "img-3"></div>
 
 <div id="section3" class="container-fluid" style="color:#777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
   <h3 style="text-align:center;">happy tab</h3>
-  <p><center>
-  <p> <font size="100"> " </font> <font size ="8"> Believe you can and you're halfway there</font> <font size="100"> " </font></p>
+  <p>
+  <p> <font size="100"> " </font> <font size ="12"> Believe you can and you're halfway there</font> <font size="100"> " </font></p>
   <p><h3>- Theodore Roosevelt</h3></p>
-  <p> </p>
-  <p> </p>
-  <p> <font size = "8"> Healthy Mental Habits </font> </p>
-  <p> You can’t decide your mental state by simply “choosing to be happy”, but you can consciously try to combat negative thoughts you may be facing. Here are some tips to check in with your mental health and stay resilient! </p>
-  <p> <strong> Connecting with others </strong> No matter if you would label yourself as an ‘introvert’ or ‘extrovert’, all humans need social interaction in some amount to feel their best. Try talking to someone who cares about you, texting a friend, or even kindly interacting with strangers. </p>
-  <p> <strong> Be Mindful of Your Physical Health </strong> Your mental and physical health are more connected than you might think. Improving your physical state by getting enough sleep, drinking water, exercising, and eating nuts, leafy greens, and foods high in omega-3 can lead to a healthier brain. </p>
-  <p> <strong> Don’t Be Afraid to Reach Out for Help </strong> People with mental health problems sometimes hesitate to get help because they are afraid of burdening people, or they underestimate the gravity of what they are facing. If your situation is serious, connect with a certified therapist and lean on people you trust to help you. </p>
-  <p> <strong> Have Something to Look Forward to </strong> Changing up your routine or planning ahead for something you enjoy can give you something to look forward and can improve your mental state. </p>
-  </center></p>
+<p> </p>
+<p> </p>
+<p> <font size = "20"> Healthy Mental Habits </font> </p>
+<p> You can’t decide your mental state by simply “choosing to be happy”, but you can consciously try to combat negative thoughts you may be facing. Here are some tips to check in with your mental health and stay resilient! </p>
+<p> <strong> Connecting with others </strong> No matter if you would label yourself as an ‘introvert’ or ‘extrovert’, all humans need social interaction in some amount to feel their best. Try talking to someone who cares about you, texting a friend, or even kindly interacting with strangers. </p>
+<p> <strong> Be Mindful of Your Physical Health </strong> Your mental and physical health are more connected than you might think. Improving your physical state by getting enough sleep, drinking water, exercising, and eating nuts, leafy greens, and foods high in omega-3 can lead to a healthier brain. </p>
+<p> <strong> Don’t Be Afraid to Reach Out for Help </strong> People with mental health problems sometimes hesitate to get help because they are afraid of burdening people, or they underestimate the gravity of what they are facing. If your situation is serious, connect with a certified therapist and lean on people you trust to help you. </p>
+<p> <strong> Have Something to Look Forward to </strong> Changing up your routine or planning ahead for something you enjoy can give you something to look forward and can improve your mental state. </p>
+  </p>
 </div>
 
 <div class = "img-4"></div>
@@ -216,7 +261,7 @@ body {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-        <a class="navbar-brand" href="#active">expression.</a>
+        <a class="navbar-brand" href="#active">WebSiteName</a>
       </div>
       <div>
         <div id="myNavbar" class="collapse navbar-collapse" style="color:#ffffff;background-color:#777;">
@@ -231,6 +276,187 @@ body {
   </div>
 </nav>
 
+<form id="form1">
 
+<h4>Which of these is not one of the top five mental health disorders? </h4>
+<h5><label for="var_string"><input type="radio" name="key1" value="0" id="var_string" />depression</label>
+<label for="var_join"><input type="radio" name="key1" value="0" id="var_join" />anxiety</label>
+<label for="var_info"><input type="radio" name="key1" value="10" id="var_info" />autism</label>
+<label for="var_condition"><input type="radio" name="key1" value="0" id="var_condition"/>eating disorders</label></h5>
+
+<h4>Which of these can lead to mental health disorders?</h4>
+<h5><label for="sub_string"><input type="radio" name="key2" value="10" id="sub_string"/>life experience</label>
+<label for="sub_join"><input type="radio" name="key2" value="0" id="sub_join"/>foods</label>
+<label for="sub_info"><input type="radio" name="key2" value="0" id="sub_info" />bad situations</label>
+<label for="sub_condition"><input type="radio" name="key2" value="0" id="sub_condition" />intelligence</label></h5>
+
+<h4>What percent of adults have a mental disorder?</h4>
+<h5><label for="cat_string"><input type="radio" name="key3" value="0" id="cat_string" />30%</label>
+<label for="cat_join"><input type="radio" name="key3" value="0" id="cat_join" />5%</label>
+<label for="cat_info"><input type="radio" name="key3" value="0" id="cat_info" />10%</label>
+<label for="cat_condition"><input type="radio" name="key3" value="10" id="cat_condition" />20%</label></h5>
+
+<h4>What percent of young adults suffer from eating disorders?</h4>
+<h5><label for="var_string"><input type="radio" name="key4" value="10" id="var_string" />2%</label>
+<label for="var_join"><input type="radio" name="key4" value="0" id="var_join" />31%</label>
+<label for="var_info"><input type="radio" name="key4" value="0" id="var_info" />0%</label>
+<label for="var_condition"><input type="radio" name="key4" value="0" id="var_condition"/>0.5%</label></h5>
+
+<h4>What was the rate of depression for young adults in 2015?</h4>
+<h5><label for="sub_string"><input type="radio" name="key5" value="0" id="sub_string"/>6%</label>
+<label for="sub_join"><input type="radio" name="key5" value="10" id="sub_join"/>8%</label>
+<label for="sub_info"><input type="radio" name="key5" value="0" id="sub_info" />70%</label>
+<label for="sub_condition"><input type="radio" name="key5" value="0" id="sub_condition" />2%</label></h5>
+
+<h4>What is the third most common mental health issue?</h4>
+<h5><label for="cat_string"><input type="radio" name="key6" value="0" id="cat_string" />depression</label>
+<label for="cat_join"><input type="radio" name="key6" value="0" id="cat_join" />PTSD</label>
+<label for="cat_info"><input type="radio" name="key6" value="0" id="cat_info" />anxiety</label>
+<label for="cat_condition"><input type="radio" name="key6" value="10" id="cat_condition" />ADHD</label></h5>
+
+<h4>Can people with mental issues live a good life?</h4>
+<h5><label for="var_string"><input type="radio" name="key7" value="0" id="var_string" />no</label>
+<label for="var_info"><input type="radio" name="key7" value="10" id="var_info" />yes</label></h5>
+
+
+<h4>What should you do if you think you have a mental illness?</h4>
+<h5><label for="sub_string"><input type="radio" name="key8" value="0" id="sub_string"/>ignore it</label>
+<label for="sub_join"><input type="radio" name="key8" value="0" id="sub_join"/>take drugs</label>
+<label for="sub_info"><input type="radio" name="key8" value="10" id="sub_info" />talk to a professional</label>
+<label for="sub_condition"><input type="radio" name="key8" value="0" id="sub_condition" />shut people out of your life</label></h5>
+
+<h4>Which of these is a sign of declining mental health?</h4>
+<h5><label for="cat_string"><input type="radio" name="key9" value="0" id="cat_string" />exercising more</label>
+<label for="cat_join"><input type="radio" name="key9" value="0" id="cat_join" />making more friends</label>
+<label for="cat_info"><input type="radio" name="key9" value="10" id="cat_info" />pulling away from people</label>
+<label for="cat_condition"><input type="radio" name="key9" value="0" id="cat_condition" />shopping more</label></h5>
+
+<h4>Should people who are mentally healthy see counselors, therapists, or routinely take care of their mental state?</h4>
+<h5><label for="cat_string"><input type="radio" name="key10" value="10" id="cat_string" />yes</label>
+<label for="cat_join"><input type="radio" name="key10" value="0" id="cat_join" />no</label></h5>
+
+<button type="submit" value="Submit">Submit</button>
+
+</form>
+
+<script>
+document.getElementById("form1").onsubmit=function() {
+      //}
+      key1 = parseInt(document.querySelector('input[name = "key1"]:checked').value);
+	    key2 = parseInt(document.querySelector('input[name = "key2"]:checked').value);
+	    key3 = parseInt(document.querySelector('input[name = "key3"]:checked').value);
+	    key4 = parseInt(document.querySelector('input[name = "key4"]:checked').value);
+      key5 = parseInt(document.querySelector('input[name = "key5"]:checked').value);
+      key6 = parseInt(document.querySelector('input[name = "key6"]:checked').value);
+      key7 = parseInt(document.querySelector('input[name = "key7"]:checked').value);
+      key8 = parseInt(document.querySelector('input[name = "key8"]:checked').value);
+      key9 = parseInt(document.querySelector('input[name = "key9"]:checked').value);
+      key10 = parseInt(document.querySelector('input[name = "key10"]:checked').value);
+
+      if (key1 == 0) {
+        var newString = "You got this question wrong: " + "Which of these is not one of the top five mental health disorders?" + // add the question here
+                ", and this is the answer: " + "autism"; // add the answer
+
+        document.getElementById("wrongAnswer1").innerHTML = newString;
+
+      }
+
+      if (key2 == 0) {
+        var newString = "You got this question wrong: " + "Which of these can lead to mental health disorders?" + // add the question here
+                ", and this is the answer: " + "life experience"; // add the answer
+
+        document.getElementById("wrongAnswer2").innerHTML = newString;
+
+      }
+      if (key3 == 0) {
+        var newString = "You got this question wrong: " + "What percent of adults have a mental disorder?" + // add the question here
+                ", and this is the answer: " + "20%"; // add the answer
+
+        document.getElementById("wrongAnswer3").innerHTML = newString;
+
+      }
+      if (key4 == 0) {
+        var newString = "You got this question wrong: " + "What percent of young adults suffer from eating disorders?" + // add the question here
+                ", and this is the answer: " + "2%"; // add the answer
+
+        document.getElementById("wrongAnswer4").innerHTML = newString;
+
+      }
+      if (key5 == 0) {
+        var newString = "You got this question wrong: " + "What was the rate of depression for young adults in 2015?" + // add the question here
+                ", and this is the answer: " + "8%"; // add the answer
+
+        document.getElementById("wrongAnswer5").innerHTML = newString;
+
+      }
+      if (key6 == 0) {
+        var newString = "You got this question wrong: " + "What is the third most common mental health issue?" + // add the question here
+                ", and this is the answer: " + "ADHD"; // add the answer
+
+        document.getElementById("wrongAnswer6").innerHTML = newString;
+
+      }
+      if (key7 == 0) {
+        var newString = "You got this question wrong: " + "Can people with mental issues live a good life?" + // add the question here
+                ", and this is the answer: " + "yes"; // add the answer
+
+        document.getElementById("wrongAnswer7").innerHTML = newString;
+
+      }
+      if (key8 == 0) {
+        var newString = "You got this question wrong: " + "What should you do if you think you have a mental illness?</" + // add the question here
+                ", and this is the answer: " + "talk to a professional"; // add the answer
+
+        document.getElementById("wrongAnswer8").innerHTML = newString;
+
+      }
+      if (key9 == 0) {
+        var newString = "You got this question wrong: " + "Which of these is a sign of declining mental health?" + // add the question here
+                ", and this is the answer: " + "pulling away from people"; // add the answer
+
+        document.getElementById("wrongAnswer9").innerHTML = newString;
+
+      }
+      if (key10 == 0) {
+        var newString = "You got this question wrong: " + "Should people who are mentally healthy see counselors, therapists, or routinely take care of their mental state?" + // add the question here
+                ", and this is the answer: " + "yes"; // add the answer
+
+        document.getElementById("wrongAnswer10").innerHTML = newString;
+
+      }
+
+	    var result = key1 + key2 + key3 + key4+ key5 + key6 + key7+ key8 + key9 + key10;
+
+
+	document.getElementById("grade").innerHTML = result;
+
+  if (result == 0 || result == 10 || result == 20) {result2 = "It looks like you need to read the information section once again."};
+  if (result == 30 || result == 40 || result == 50) {result2 = "Try again. You can do better!"};
+  if (result == 60 || result == 70) {result2 = "You did okay. Try again."};
+  if (result == 80 || result == 90) {result2 = "You're almost there! Give it another shot."};
+  if (result == 100) {result2 = "Excellent! You're a mental health pro!"};
+  document.getElementById("grade2").innerHTML = result2;
+
+
+return false; // requered to not refresh the page; just leave this here
+} //this ends the submit function
+
+
+</script>
+
+<p>Your grade is: <span id="grade">__</span></p>
+<p id="grade2"></p>
+<p id="wrongAnswer1"></p>
+<p id="wrongAnswer2"></p>
+<p id="wrongAnswer3"></p>
+<p id="wrongAnswer4"></p>
+<p id="wrongAnswer5"></p>
+<p id="wrongAnswer6"></p>
+<p id="wrongAnswer7"></p>
+<p id="wrongAnswer8"></p>
+<p id="wrongAnswer9"></p>
+<p id="wrongAnswer10"></p>
+</div><!-- close main div -->
+    
 </body>
 </html>
